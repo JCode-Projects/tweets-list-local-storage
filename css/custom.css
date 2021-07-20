@@ -1,0 +1,36 @@
+body {
+    font-family: 'Montserrat', cursive;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: linear-gradient(to right, #1364ac 0%, #196e9c 100%);
+    color: #fff;
+}
+
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#contenido {
+    width: min(1000px, 100%);
+}
+
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+}
